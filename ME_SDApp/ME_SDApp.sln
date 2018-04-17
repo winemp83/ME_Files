@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ME_ViewModelBase", "ViewMod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ME_ViewModel", "ViewModel\ME_ViewModel.csproj", "{F7C83B76-F018-4CB8-BA5A-3936DCD7EE0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "View\View.csproj", "{AF0298C8-16A6-4542-B92C-3036B4E163EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartApplication", "StartApplication\StartApplication.csproj", "{CFFAB67C-7DBB-4153-B8F1-D01BE627F7C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{F7C83B76-F018-4CB8-BA5A-3936DCD7EE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7C83B76-F018-4CB8-BA5A-3936DCD7EE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7C83B76-F018-4CB8-BA5A-3936DCD7EE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0298C8-16A6-4542-B92C-3036B4E163EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0298C8-16A6-4542-B92C-3036B4E163EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0298C8-16A6-4542-B92C-3036B4E163EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0298C8-16A6-4542-B92C-3036B4E163EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFFAB67C-7DBB-4153-B8F1-D01BE627F7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFAB67C-7DBB-4153-B8F1-D01BE627F7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFAB67C-7DBB-4153-B8F1-D01BE627F7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFAB67C-7DBB-4153-B8F1-D01BE627F7C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

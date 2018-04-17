@@ -68,6 +68,8 @@ namespace ME_ViewModelBase
         public event PropertyChangedEventHandler PropertyChanged;
 
         #endregion
+
+
     }
 
     /// <summary>

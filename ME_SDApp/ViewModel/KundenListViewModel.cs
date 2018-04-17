@@ -123,6 +123,7 @@ namespace ME_ViewModel
             _Kunden.Clear();
             _Kunden = new ObservableCollection<KundenViewModel>(_K.Kunden.Select(k => new KundenViewModel(k)));
         }
+        
     }
     
 }
