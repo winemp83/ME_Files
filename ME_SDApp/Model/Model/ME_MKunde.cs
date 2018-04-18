@@ -22,9 +22,9 @@ namespace ME_Model.Model
             this._Name = name;
         }
 
-        private int _StringToInt(string value) => Convert.ToInt32(value);
-        private string _IntToString(int value) => Convert.ToString(value);
-        public override string ToString() => string.Format("KD: {0}, Name:{1}", this._KundenNummer, this._Name);
+        private int _StringToInt(string value) { return  Convert.ToInt32(value);}
+        private string _IntToString(int value) { return Convert.ToString(value);}
+        public override string ToString() {return string.Format("KD: {0}, Name:{1}", this._KundenNummer, this._Name);}
 
         public override bool Equals(object obj)
         {

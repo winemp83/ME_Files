@@ -12,15 +12,15 @@ namespace ME_Model.Model
         private int _Kunde;
         private string _Notiz;
 
-        public string ID { get => this._IntToString(this._Id); set {this._Id = _StringToInt(value); } }
-        public string SD { get => _IntToString(this._SD); set => this._SD = _StringToInt(value); }
-        public string Notiz { get => this._Notiz; set => this._Notiz = value; }
-        public string Date { get => _Date.ToShortDateString(); set {this._StringToDate(value); } }
-        public string Kunde { get => _IntToString(this._Kunde); set => this._Kunde = _StringToInt(value); }
+        public string ID { get { this._IntToString(this._Id);} set {this._Id = _StringToInt(value); } }
+        public string SD { get { _IntToString(this._SD);} set { this._SD = _StringToInt(value); }}
+        public string Notiz { get { this._Notiz;} set { this._Notiz = value; }}
+        public string Date { get { _Date.ToShortDateString();} set {this._StringToDate(value); } }
+        public string Kunde { get { _IntToString(this._Kunde);} set { this._Kunde = _StringToInt(value); }}
 
 
-        private int _StringToInt(string value) => Convert.ToInt32(value);
-        private string _IntToString(int value) => Convert.ToString(value);
+        private int _StringToInt(string value) {return Convert.ToInt32(value);}
+        private string _IntToString(int value) {return Convert.ToString(value);}
         private string _StringToDate(string d){
             try { this._Date = DateTime.Parse(d); return d; } catch (Exception) { this._Date = DateTime.Now; return DateTime.Now.ToShortDateString(); }
         }
@@ -43,7 +43,7 @@ namespace ME_Model.Model
 
 
 
-        public override string ToString() => string.Format("[ID: {0} , SD = {1} , Datum = {2}, Kunde = {3}, Notiz : {4} ]",this.ID, this.SD, this.Date, this.Kunde, this.Notiz);
+        public override string ToString() { return string.Format("[ID: {0} , SD = {1} , Datum = {2}, Kunde = {3}, Notiz : {4} ]", this.ID, this.SD, this.Date, this.Kunde, this.Notiz); }
 
         public override bool Equals(object obj)
         {

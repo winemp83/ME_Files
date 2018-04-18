@@ -26,5 +26,8 @@ namespace StartApplication
         void OnSaveClick(object sender, EventArgs e) {
             
         }
+        void OnLoadClick(object sender, EventArgs e) { 
+            
+        }
     }
 }

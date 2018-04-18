@@ -15,9 +15,10 @@ namespace ViewModel
 
         public event EventHandler Save;
         public event EventHandler Load;
-
+        public event EventHandler Add;
+        
         public RelayCommand SaveCommand { get; set; }
-        public RelayCommand LoadCommand { get; set; }
+        public RelayCommand LoadCommand { get; set;}
 
         public CustomerEditorViewModel()
         {

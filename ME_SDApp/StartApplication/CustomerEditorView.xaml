@@ -20,9 +20,9 @@
                 <RowDefinition Height="10" />
             </Grid.RowDefinitions>
             <Label Grid.Column="1" Grid.Row="1">Kundenname:</Label>
-            <TextBox Grid.Column="2" Grid.Row="1" Text="{Binding FirstName}"></TextBox>
+            <TextBox Grid.Column="2" Grid.Row="1" Text="{Binding KundenName}"></TextBox>
             <Label Grid.Column="1" Grid.Row="2">Kundennummer:</Label>
-            <TextBox Grid.Column="2" Grid.Row="2" Text="{Binding LastName}"></TextBox>
+            <TextBox Grid.Column="2" Grid.Row="2" Text="{Binding KundenNummer}"></TextBox>
         </Grid>
     </DockPanel>
 </Window>
