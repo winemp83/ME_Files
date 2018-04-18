@@ -40,8 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerEditorViewModel.cs" />
+    <Compile Include="CustomerItemViewModel.cs" />
+    <Compile Include="Funktionen\ME_XmLDBKunden.cs" />
     <Compile Include="KundenListViewModel.cs" />
     <Compile Include="KundenViewModel.cs" />
+    <Compile Include="MainViewModel.cs" />
     <Compile Include="NotizenListViewModel.cs" />
     <Compile Include="NotizenViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
